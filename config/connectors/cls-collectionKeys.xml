@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<services>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.RestVS">
+        <servicesKeys>
+            <keyDetails collectionKey="cardIssuance.connectorService:GetAllCases" connectorServiceName="cardIssuance.connectorService:GetAllCases"/>
+            <keyDetails collectionKey="cardIssuance.connectorService:createCase" connectorServiceName="cardIssuance.connectorService:createCase"/>
+            <keyDetails collectionKey="cardIssuance.connectorService:getSpecificCaseDetails" connectorServiceName="cardIssuance.connectorService:getSpecificCaseDetails"/>
+            <keyDetails collectionKey="cardIssuance.connectorService:updateCase" connectorServiceName="cardIssuance.connectorService:updateCase"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
+</services>
