@@ -54,6 +54,22 @@
                   <value name="form_qualified">false</value>
                   <value name="is_global">false</value>
                 </record>
+                <record javaclass="com.wm.util.Values">
+                  <value name="node_type">unknown</value>
+                  <value name="node_subtype">unknown</value>
+                  <record name="node_hints" javaclass="com.wm.util.Values">
+                    <null name="field_default_value"/>
+                    <Boolean name="field_fixed">false</Boolean>
+                  </record>
+                  <value name="is_public">false</value>
+                  <value name="field_name">select</value>
+                  <value name="field_type">string</value>
+                  <value name="field_dim">0</value>
+                  <value name="field_opt">true</value>
+                  <value name="nillable">true</value>
+                  <value name="form_qualified">false</value>
+                  <value name="is_global">false</value>
+                </record>
               </array>
               <value name="modifiable">true</value>
             </record>
@@ -1156,7 +1172,7 @@
           <null name="defaultValue"/>
           <value name="description">custom select field list with optional subquery</value>
           <value name="isRequired">false</value>
-          <value name="isActive">false</value>
+          <value name="isActive">true</value>
           <value name="isFixed">false</value>
           <value name="isCustom">false</value>
           <value name="encodingScope">path</value>
