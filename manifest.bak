@@ -7,10 +7,8 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <record name="requires" javaclass="com.wm.util.Values">
-    <value name="WmSalesforceRESTProvider">*.*</value>
-  </record>
-  <value name="listACL">Default</value>
+  <null name="requires"/>
+  <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
   <null name="build"/>
