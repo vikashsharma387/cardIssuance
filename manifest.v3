@@ -8,14 +8,30 @@
   <null name="shutdown_services"/>
   <null name="replication_services"/>
   <record name="requires" javaclass="com.wm.util.Values">
-    <value name="WmSalesforceRESTProvider">*.*</value>
-    <value name="WmJDBCAdapter">*.*</value>
+    <value name="WmSalesforceRESTProvider">10.7.0</value>
   </record>
   <value name="listACL">Default</value>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <null name="build"/>
-  <null name="description"/>
+  <value name="build"></value>
+  <value name="description"></value>
   <value name="created_date">22-07-2024 13:05:40 IST</value>
-  <null name="extendedProperties"/>
+  <array name="extendedProperties" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="key">displayName</value>
+      <value name="value"></value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="key">trusted</value>
+      <value name="value">no</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="key">status</value>
+      <value name="value">Development</value>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="key">tags</value>
+      <value name="value"></value>
+    </record>
+  </array>
 </Values>
